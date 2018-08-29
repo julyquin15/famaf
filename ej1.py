@@ -21,12 +21,27 @@
 #  MA 02110-1301, USA.
 #  
 #  
-
+from turtle import* 
 from graficos import poligonos
-lrg=1
-while (lrg>0):
-	lrg= int(raw_input("ingrese un numero: "))
-	pol=int(raw_input("ingrese un numero de lados: "))
-	poligonos(pol,lrg)
-print "el programa finalizo con éxito"
+# ~ for a in range(5):
+	# ~ poligonos(4,20)
+	# ~ forward(20)
+def casas():
+	for a in range (5):
+		poligonos(3,20)
+		left(270)
+		poligonos(4,20)
+		left(90)
+		forward(20)
+	
+speed(0)	
+casas()
+penup()
+left(180)
+forward(100)
+left(270)
+forward(40)
+left(270)
+pendown()
+casas()
 exitonclick()

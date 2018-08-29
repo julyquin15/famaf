@@ -24,29 +24,15 @@
 from turtle import*
 
 def poligonos(poligono, largo):
-		"""
-		esta es una hermosa funcion para hacer maravillosos poligonos regulares
-		sus parametro son:
-		poligono= la cantidad lados del poligono(entero)
-		largo= el largo de cada lado del poligono (en pixeles) (entero)
-		
-		return NULL
-		"""
-	for lados in range (poligono):
-		forward(largo)
-		left (360/poligono)
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
+    """
+        esta es una hermosa funcion para hacer maravillosos poligonos regulares
+        sus parametro son:
+        poligono= la cantidad lados del poligono(entero)
+        largo= el largo de cada lado del poligono (en pixeles) (entero)
+        
+        return NULL
+    """
+    for lados in range (poligono):
+        forward(largo)
+        left (360/poligono)
 
